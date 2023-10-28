@@ -249,10 +249,10 @@ popUpBoxYesBtn.addEventListener('click', (event) => {
 
 // event will be listen when pop-up-box No btn is clicked
 popUpBoxNoBtn.addEventListener('click', (event) => {
-    if(pop_up_box.classList.contains('inactive')){
+    if(pop_up_box.classList.contains('active')){
         pop_up_box.classList.add('inactive');
     } else {
-        console.warn('pop-up-box does not contain ant inactive class ===> msg from popUpBoxNoBtn.addEventListener()');
+        console.warn('pop-up-box does not contain any inactive class ===> msg from popUpBoxNoBtn.addEventListener()');
     }
 });
 
